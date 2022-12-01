@@ -14,10 +14,13 @@ STM32 toolchain checkout
 - [x] Breadboard
 - [x] LEDs
 - [x] Jumper
-- [x] Resistors
 
 ## Procedure
 1. STM32CubeIDE is used as development platform throughout this course
+2. Knight rider lights are row of LEDs which sweep back and forth. 
+3. In this milestone, 8 LEDs are used and arranged in single row on the breadboard.
+4. 8 bits output data are declared and connected to ports A on the nucleo board.
+5. The speed
 2. For this milestone, letters **A, F, Y** is translated into morse code and transmitted through the blink of LED on the nucleo board.
 3. The source code is generated in C language: [stm32knightrider.c](https://github.com/LuckyLizard-MKEL1123/stm32knightrider/blob/main/stm32knightrider.c)
    
