@@ -95,7 +95,7 @@ int main(void)
 	  //int swdata;
 	  int delay=125;
 	  // move left
-	  for (int i=4; i<=11; i++) {
+	  for (int i=1; i<=8; i++) {
 	  	GPIOA->ODR = (1<<i);
 	  	//swdata=GPIOB->IDR & 0x0f;
 	  	//delay=count_delay(125);
@@ -103,7 +103,7 @@ int main(void)
 	  }
 
 	  // move right
-	  for (int i=10; i>4; i--) {
+	  for (int i=7; i>1; i--) {
 	  	GPIOA->ODR = (1<<i);
 	  	//swdata=GPIOB->IDR & 0x0f;
 	  	//delay=count_delay(125);
@@ -176,13 +176,13 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7
-                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4
+                          |GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : PA4 PA5 PA6 PA7
                            PA8 PA9 PA10 PA11 */
-  GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7
-                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11;
+  GPIO_InitStruct.Pin = GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4
+                          |GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
