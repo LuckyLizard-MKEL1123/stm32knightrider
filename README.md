@@ -7,7 +7,7 @@ Group Member:
 3. **Nur Fatini Binti Isa**
 
 ## Ojective
-STM32 toolchain checkout
+Interface simple devices GPIO ports
 ## Equipment
 - [x] Board used: **NUCLEO-F411RE**
 - [x] Software used: **STM32CubeIDE**
