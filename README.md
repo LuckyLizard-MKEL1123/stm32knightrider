@@ -43,7 +43,7 @@ STM32 toolchain checkout
    - The second for loop is to show the movement from left to right.
    - The most left bit is already on from the previous loop.
    - Thus, the next no of bit to be turn on is the seventh bit.
-   - Compared to the first loop condition, the program should loop only 7 times at this stage.
+   - Compared to the first loop condition, the program should loop only 6 times at this stage.
    - A delay of 125 ms is set as invertal so that it will 1s for one LEDs motion from right to left.
    - One full cycle of knight rider light will be 2s.
    
@@ -55,7 +55,6 @@ STM32 toolchain checkout
 | 4 | 0000 1000 | :white_circle: :white_circle: :white_circle: :white_circle: :green_circle: :white_circle: :white_circle: :white_circle: |
 | 3 | 0000 0100 | :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :green_circle: :white_circle: :white_circle: |
 | 2 | 0000 0010 | :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :green_circle: :white_circle: |
-| 1 | 0000 0001 | :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :green_circle: |
 
 ## Results
 Link for milestone 2.1 demo: [knight_rider](link)
