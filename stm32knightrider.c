@@ -92,21 +92,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  //int swdata;
 	  int delay=125;
 	  // move left
-	  for (int i=1; i<=8; i++) {
+	  for (int i=4; i<=11; i++) {
 	  	GPIOA->ODR = (1<<i);
-	  	//swdata=GPIOB->IDR & 0x0f;
-	  	//delay=count_delay(125);
 	  	HAL_Delay(delay);
 	  }
 
 	  // move right
-	  for (int i=7; i>1; i--) {
+	  for (int i=11; i>4; i--) {
 	  	GPIOA->ODR = (1<<i);
-	  	//swdata=GPIOB->IDR & 0x0f;
-	  	//delay=count_delay(125);
 	  	HAL_Delay(delay);
 	  }
 	  }
