@@ -1,4 +1,4 @@
-# Milestone2.1: stm32knightrider
+# Milestone2.1.1: stm32knightrider
 Group Name: **Lucky Lizard** :lizard:
 
 Group Member: 
