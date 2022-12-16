@@ -57,6 +57,6 @@ Interface simple devices GPIO ports
 | 5 | 0000 0010 | :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :white_circle: :green_circle: :white_circle: |
 
 ## Results
-Link for milestone 2.1.1 demo: [knight_rider](link)
+Link for milestone 2.1.1 demo: [knight_rider](https://youtu.be/eIqk-EkAfFI)
 ## References
 1. https://www.youtube.com/watch?v=KFSpxY_KM5A
